@@ -1,0 +1,9 @@
+ext.spec = [
+        'apache' : [
+                'servicemix' : [
+                        'bundles' : [
+                                'kafkaClients' : 'org.apache.servicemix.bundles:org.apache.servicemix.bundles.kafka-clients:' + kafkaVersion
+                        ]
+                ]
+        ]
+]
